@@ -1,4 +1,3 @@
-#Analytical code
 course3 <- "UCIHAR.zip"
 
 # Check if archive exists. If not download it.
