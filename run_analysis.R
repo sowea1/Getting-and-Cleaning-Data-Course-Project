@@ -56,3 +56,5 @@ final_dataset <- merged_data1 %>%
   group_by(subject, activity) %>%
   summarise_all(funs(mean))
 write.table(final_dataset, "Final_dataset.txt", row.name=FALSE)
+
+
